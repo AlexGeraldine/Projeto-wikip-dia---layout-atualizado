@@ -1,0 +1,86 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+footer{
+    
+    border-top: solid 2px #cdcdcd;
+    padding: 16px;
+    background-color: rgb(166, 231, 243);
+ 
+    
+    
+}
+footer p{
+    text-align: center;  
+    font-size: 1.1em;
+    color:rgb(224, 12, 171);
+    font-weight: bold;
+    
+    
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    background-color: rgb(215, 245, 250);
+}
+.anchors a:hover{
+    color:rgb(224, 12, 171) ;
+}
+
+.anchors img{
+    padding: 10px;
+    width: 200px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+    background-color: rgb(215, 245, 250);
+    text-align: center;
+}
+figure {
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    
+}
+
+header{
+    background-color: rgb(215, 245, 250);
+    
+}
+
+.sidebar a{
+    color: rgb(224, 12, 171);
+}
+.sidebar a:hover{
+    color: blue;
+}
+
+main img{
+    width: 870px;
+}
+
+ 
